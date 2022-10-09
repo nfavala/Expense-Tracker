@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Weekly_expense__c</fullName>
+    <description>Shows the next expense payment date.</description>
+    <externalId>false</externalId>
+    <formula>CASE(CASE( MOD( Expense_Date__c - DATE(1900, 1, 7), 7), 0, &quot;Sunday&quot;, 1, &quot;Monday&quot;, 2, &quot;Tuesday&quot;, 3,
+ 
+&quot;Wednesday&quot;, 4, &quot;Thursday&quot;, 5, &quot;Friday&quot;, 6, &quot;Saturday&quot;,&quot;ERROR&quot;),
+ 
+&quot;Sunday&quot;, Expense_Date__c + 5,
+ 
+&quot;Monday&quot;, Expense_Date__c + 4,
+ 
+&quot;Tuesday&quot;, Expense_Date__c + 3,
+ 
+&quot;Wednesday&quot;, Expense_Date__c + 2,
+ 
+&quot;Thursday&quot;, Expense_Date__c + 1,
+ 
+&quot;Friday&quot;, Expense_Date__c,
+ 
+&quot;Saturday&quot;, Expense_Date__c + 6,
+ 
+null)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Next expense payment date.</inlineHelpText>
+    <label>Weekly expense</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

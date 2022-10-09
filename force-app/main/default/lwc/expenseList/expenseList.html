@@ -1,0 +1,16 @@
+<template>
+  <lightning-card title="Expenses List" icon-name="utility:currency">
+      <ul class="slds-m-around_medium">
+          <template for:each={myExpenses.data} for:item="expense">
+              <li key={expense.Id}>
+                <p><b>Expense Name:</b> {expense.Name}</p>
+                <p><b>Amount:</b> {expense.Amount__c}</p>
+                <p><b>Category:</b> {expense.Category__c}</p> 
+                <p><b>Date:</b> {expense.Expense_Date__c}</p>
+                <p><b>Payment Date:</b> {expense.Weekly_expense__c}</p>    
+              </li>
+              <hr key={expense.Id}>
+          </template>
+      </ul>
+  </lightning-card>
+</template>
