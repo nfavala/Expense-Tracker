@@ -1,6 +1,17 @@
-# Salesforce DX Project: Next Steps
+## Salesforce DX Project: Expense Tracker
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+Your job is to build a small expense app where we can register the expenses through a form, and then being able to see each expense on a list.
+You will also need to build a small pie chart dashboard, that displays how much was spent per each of the categories on any given month.
+
+## Visuals
+
+![ScreenShot](https://github.com/nfavala/Expense-Tracker/blob/master/Screenshot_3.png)
+
+![ScreenShot](https://github.com/nfavala/Expense-Tracker/blob/master/Screenshot_2.png)
+
+![ScreenShot](https://github.com/nfavala/Expense-Tracker/blob/master/Screenshot_1.png)
+
+
 
 ## How Do You Plan to Deploy Your Changes?
 
