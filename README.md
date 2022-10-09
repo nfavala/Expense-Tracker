@@ -7,9 +7,11 @@ You will also need to build a small pie chart dashboard, that displays how much 
 
 ![ScreenShot](https://github.com/nfavala/Expense-Tracker/blob/master/Screenshot_3.png)
 
+![ScreenShot](https://github.com/nfavala/Expense-Tracker/blob/master/Screenshot_1.png)
+
 ![ScreenShot](https://github.com/nfavala/Expense-Tracker/blob/master/Screenshot_2.png)
 
-![ScreenShot](https://github.com/nfavala/Expense-Tracker/blob/master/Screenshot_1.png)
+
 
 
 
