@@ -19,8 +19,9 @@ export default class ExpenseCreator extends LightningElement {
         variant:"success"
     });
     this.dispatchEvent(toastEvent);
-}
 
-  @api recordId;
-  @api objectApiName;
+    const editForm = this.template.querySelector('lightning-record-form');
+    editForm.recordId = null;
+  }
+  
 }
